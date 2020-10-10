@@ -1,0 +1,32 @@
+body {
+    color: #fff;
+}
+
+th, tr {
+    cursor: pointer;
+}
+
+.role-title {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.table-responsive {
+    height: 450px;
+    overflow: auto;
+}
+
+.squad-chip {
+    padding: 5px;
+}
+
+#fanta-credits {
+    position: absolute;
+    top: 0;
+    right: 0;
+    border-top-right-radius: 0;
+    border-top-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
